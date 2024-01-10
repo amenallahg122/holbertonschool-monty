@@ -13,5 +13,5 @@ void tokenizer(FILE *file)
 		n++;
 	}
 	free(line);
-	free(blasa);
+	free_stack(blasa);
 }
